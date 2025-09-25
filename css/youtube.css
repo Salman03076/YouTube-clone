@@ -124,7 +124,7 @@ body {
 
 
 .sign {
-   padding: 2px;
+    padding: 2px;
     width: 70px;
     height: 20px;
     display: flex;
@@ -132,7 +132,8 @@ body {
 
 }
 
-#rightbox h4 {margin-top: 3px;
+#rightbox h4 {
+    margin-top: 3px;
     font-size: 12px;
     margin-left: 5px;
 }
@@ -331,7 +332,7 @@ body {
     flex-direction: row;
     height: 19px;
     display: flex;
-    padding:1px;
+    padding: 1px;
     font-size: 15px;
     margin-top: 6px;
     width: 45%;
@@ -717,7 +718,6 @@ body {
 
 }
 
-
 .sevenbox3 {
     padding-top: 5px;
     padding-left: 10px;
@@ -725,11 +725,9 @@ body {
 }
 
 #article {
-   
+
     width: 90%;
 }
-
-
 
 #youtubehistory {
     flex-wrap: wrap-reverse;
@@ -740,10 +738,8 @@ body {
 
 }
 
-
-
 #youtubehistory span {
-       flex-wrap: wrap-reverse;
+    flex-wrap: wrap-reverse;
     font-size: 12px;
     font-family: 'Roboto';
     display: flex;
@@ -754,7 +750,6 @@ body {
     border: 2px solid rgba(102, 122, 122, 0.1);
     border-radius: 5px;
 }
-
 
 #thumbnailrowfrist {
     display: flex;
