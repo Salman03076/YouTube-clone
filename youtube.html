@@ -1,0 +1,939 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/youtube.css">
+</head>
+
+
+<body>
+
+
+    <!--header-->
+    <div class="header">
+
+        <div class="leftbox">
+
+            <i class="fa fa-bars" aria-hidden="true"></i>
+            <img class="logo" src="image\Youtubelogo.png" alt="Youtubelogo">
+
+        </div>
+
+        <div class="centerbox">
+
+            <input type="search" placeholder="search....">
+            <div id="Searchlogo">
+                <img width="25px" src="image\search.png" alt="Searchlogo">
+            </div>
+
+
+            <div id="mic">
+                <i class="fa fa-microphone" aria-hidden="true"></i>
+            </div>
+
+
+
+
+
+        </div>
+
+        <div id="right">
+
+            <div id="buttton">
+                <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+            </div>
+
+
+
+            <div id="rightbox">
+                <div class="sign">
+                    <div class="inout" style="height: 15px; margin-top: 1.5px;;">
+                        <img width="10" height="16" style="height: 10px;"
+                            src="https://img.icons8.com/metro/26/FFFFFF/add-user-male.png" alt="add-user-male" />
+                    </div>
+                    <h4>Sign in</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <main id="main">
+
+        <div id="aside">
+
+            <div id="frist">
+
+                <div class="fristbox1">
+
+                    <h5><i class="fa fa-home"></i>
+                        <h5>Home </h5>
+                </div>
+
+                <div class="fristbox2">
+                    <img src="https://img.icons8.com/?size=100&id=ot8QhAKun4rZ&format=png&color=000000" alt="short"
+                        width="16px" height="16px">
+                    <h5> Short</h5>
+                </div>
+
+                <div class="fristbox3">
+                    <img width="16" height="16" src="https://img.icons8.com/tiny-glyph/16/FFFFFF/video-playlist.png"
+                        alt="video-playlist" />
+                    <h5> Subscriptions</h5>
+                </div>
+
+            </div>
+            <!--- <br>-->
+            <hr style="height: 1px; border: none; background-color: aliceblue;">
+            <!---<br>-->
+            <div id="second">
+
+
+                <div class="secondbox1">
+                    <img width="16" height="16" src="https://img.icons8.com/metro/26/FFFFFF/add-user-male.png"
+                        alt="add-user-male" />
+
+                    <h5> You </h5>
+
+                </div>
+
+
+
+                <div class="secondbox2">
+
+                    <img width="16" height="16" src="https://img.icons8.com/tiny-glyph/16/FFFFFF/time-machine.png"
+                        alt="time-machine" />
+                    <h5>History</h5>
+                </div>
+
+            </div>
+            <!---  <br>-->
+            <hr style="height: 1px; border: none; background-color: aliceblue;">
+            <!---  <br>-->
+
+            <div id="three">
+                <div class="threethbox1">
+                    <p> Sign in to like videos,
+                        comment and subscribe.</p>
+                </div>
+
+
+                <div class="threethbox2">
+                    <div class="outcore">
+                        <div class="inout" style="height: 15px; margin-top: 1.5px;;">
+                            <img width="10" height="16" style="height: 10px;"
+                                src="https://img.icons8.com/metro/26/FFFFFF/add-user-male.png" alt="add-user-male" />
+                        </div>
+                        <h4>Sign in </h4>
+                    </div>
+                </div>
+            </div>
+
+            <!---  <br>-->
+            <hr style="height: 1px; border: none; background-color: aliceblue;">
+            <!---  <br>-->
+
+            <div id="four">
+
+                <p> Explore </p>
+
+
+                <div class="fourthbox1">
+                    <img width="16" height="16" src="https://img.icons8.com/tiny-glyph/16/FFFFFF/paid.png" alt="paid" />
+                    <h5> shopping </h5>
+                </div>
+
+                <div class="fourthbox2">
+                    <img width="16" height="16" src="https://img.icons8.com/tiny-glyph/16/FFFFFF/musical-notes.png"
+                        alt="musical-notes" />
+                    <h5> Music </h5>
+                </div>
+
+                <div class="fourthbox3">
+                    <img width="16" height="16" src="https://img.icons8.com/hatch/64/FFFFFF/movies-folder.png"
+                        alt="movies-folder" />
+                    <h5> Films </h5>
+                </div>
+
+                <div class="fourthbox4">
+                    <img width="16" height="16" src="https://img.icons8.com/tiny-glyph/16/FFFFFF/rfid-signal.png"
+                        alt="rfid-signal" />
+                    <h5> Live </h5>
+                </div>
+
+                <div class="fourthbox5">
+                    <img width="16" height="16"
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA3UlEQVR4nLXSsUoDQRSF4YCYTiwUQhoRFQxpU/gEPlIqm7QGn0FTWdn4HqZz63QhVZRgoYV+MjAh4ziuUfHAssP8e87ce3cajf8QdjHCA+a4xM665ibGPususHUC+onhMD5hHdT/ztzCI15wnOwf4RkLtOsCRvGk8wIbRnb1lbmHV8ywXeBbmOINJzn8lX4ScIFJXUCVsVuc4glnySDDcJeq0oBBAsJHB3F/L743cZMdMkgDOhkM5e5HtoHrQlvdfJBVISRcopL5vvQb0zaWCpenpFX5NW3U6WP5f9E70dUk0GWIUvcAAAAASUVORK5CYII="
+                        alt="paid">
+                    <h5> Gaming </h5>
+                </div>
+
+                <div class="fourthbox6">
+                    <img width="16" height="16" src="https://img.icons8.com/ios-glyphs/30/FFFFFF/newspaper-.png"
+                        alt="newspaper-" />
+                    <h5> NEWS </h5>
+                </div>
+
+                <div class="fourthbox7">
+                    <img width="16" height="16" src="https://img.icons8.com/windows/32/FFFFFF/trophy.png"
+                        alt="trophy" />
+                    <h5> Sport </h5>
+                </div>
+
+                <div class="fourthbox8">
+                    <img width="16" height="16" src="https://img.icons8.com/metro/26/FFFFFF/graduation-cap.png"
+                        alt="graduation-cap" />
+                    <h5> Courses </h5>
+                </div>
+
+                <div class="fourthbox9">
+                    <img width="16" height="16" src="https://img.icons8.com/doodle-line/60/FFFFFF/bowler-hat.png"
+                        alt="bowler-hat" />
+                    <h5> Fashion $ beauty </h5>
+                </div>
+
+                <div class="fourthbox10">
+                    <img width="16" height="16" src="https://img.icons8.com/ios/50/FFFFFF/microphone.png"
+                        alt="microphone" />
+                    <h5> Podasts </h5>
+                </div>
+
+            </div>
+
+            <!---  <br>-->
+            <hr style="height: 1px; border: none; background-color: aliceblue;">
+            <!---  <br>-->
+
+            <div id="fifth">
+
+                <p> More from YouTube </p>
+
+
+                <div class="fifthbox1">
+                    <img width="16" height="16"
+                        src="https://img.icons8.com/external-tal-revivo-filled-tal-revivo/24/FA5252/external-youtube-is-an-american-video-sharing-and-now-googles-subsidiaries-logo-filled-tal-revivo.png"
+                        alt="external-youtube-is-an-american-video-sharing-and-now-googles-subsidiaries-logo-filled-tal-revivo" />
+                    <h5> Premium </h5>
+                </div>
+
+                <div class="fifthbox2">
+                    <img width="16" height="16" src="https://img.icons8.com/doodle/48/FA5252/youtube-music.png"
+                        alt="youtube-music" />
+                    <h5> YouTube Music </h5>
+                </div>
+
+                <div class="fifthbox3">
+                    <img width="16" height="16" src="https://img.icons8.com/retro/32/FA5252/youtube-play.png"
+                        alt="youtube-play" />
+                    <h5> YouTube Kids</h5>
+                </div>
+
+            </div>
+
+            <!---  <br>-->
+            <hr style="height: 1px; border: none; background-color: aliceblue;">
+
+            <div id="six">
+
+                <div class="sixthbox1">
+                    <img width="16" height="16" src="https://img.icons8.com/tiny-glyph/16/FFFFFF/settings.png"
+                        alt="settings" />
+                    <h5> Settings </h5>
+                </div>
+
+
+                <div class="sixthbox2">
+                    <img width="16" height="16" src="https://img.icons8.com/ios-filled/50/FFFFFF/greek-helmet.png"
+                        alt="greek-helmet" />
+                    <h5> Report history </h5>
+                </div>
+
+
+                <div class="sixthbox3">
+                    <img width="16" height="16" src="https://img.icons8.com/ios/50/FFFFFF/help--v1.png"
+                        alt="help--v1" />
+                    <h5> Help </h5>
+                </div>
+
+
+                <div class="sixthbox4">
+                    <img width="16" height="16" src="https://img.icons8.com/windows/32/FFFFFF/money-transfer.png"
+                        alt="money-transfer" />
+                    <h5> Send feedback </h5>
+                </div>
+
+            </div>
+
+            <!---  <br>-->
+            <hr style="height: 1px; border: none; background-color: aliceblue;">
+            <!---  <br>-->
+
+            <div id="seven">
+
+                <div class="sevenbox1">
+                    <p> About Press Copyright
+                        Contach us Creator advertise
+                        Developars
+                    </p>
+                </div>
+
+
+
+                <div class="sevenbox2">
+                    <p> Terms Privacy Policy & Safey
+                        HOW YouTube works
+                        Test new feature
+                    </p>
+                </div>
+
+
+                <div class="sevenbox3">
+                    <h6> @ 2025 Google LLG </h6>
+                </div>
+            </div>
+        </div>
+
+        <article id="article">
+            <div id="youtubehistory">
+                <span style="background-color: white;  color: black;"> All</span>
+                <span> Web Development</span>
+                <span> Computer programing </span>
+                <span> Eding</span>
+                <span> podcasts </span>
+                <span> Colleges </span>
+                <span> News</span>
+                <span> Invertible mariix</span>
+                <span> study Skills </span>
+                <span> Eninering mathematics </span>
+                <span> Computer Dardware</span>
+                <span> study Skills </span>
+                <span> Eninering mathematics </span>
+                <span> Computer Dardware</span>
+                <span> Professional wrestling </span>
+                <span>Recruiment </span>
+                <span> street food </span>
+            </div>
+
+
+            <div id="thumbnailrowfrist">
+
+                <div class="contentrowfrist">
+
+                    <div id="thumbnailfrist">
+                        <img width="83%"
+                            src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/youtube-thumbnail-template-design-5fa9cd79a6367f8446a5208e4540a493_screen.jpg?ts=1699135222"
+                            alt="thumbnail">
+                    </div>
+                    <div class="thumbnailcontentfrist">
+                        <Img class="channellogofrist" width="30px"
+                            src="https://www.designevo.com/res/templates/thumb_small/drop-extra-terrestrial-and-gaming.webp">
+                        <p>
+                            Digital platforms: Widely used by sites like YouTube,
+                            other social media to represent ....
+                        </p>
+                    </div>
+                    <span>1.4k views 2 years ago </span>
+                </div>
+
+
+                <div class="contentrowsecond">
+
+                    <div id="thumbnailsecond">
+                        <img width="83%"
+                            src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/free-youtube-thumbnail-maker-online-design-template-b0d0e1050e510fc2784b90d522d5bbe5_screen.jpg?ts=1662402001"
+                            alt="thumbnail">
+                    </div>
+                    <div class="thumbnailcontentsecond">
+                        <Img class="channellogosecond" width="30px"
+                            src="https://www.designevo.com/res/templates/thumb_small/drop-extra-terrestrial-and-gaming.webp">
+                        <p>
+                            Digital platforms: Widely used by sites like YouTube,
+                            other social media to represent ....
+                        </p>
+                    </div>
+                    <span>1.4k views 2 years ago </span>
+                </div>
+
+
+                <div class="contentrowthreeth">
+
+                    <div id="thumbnailthreeth">
+                        <img width="83%"
+                            src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/youtube-thumbnail-ideas-to-make-money-2025-design-template-afdcd4680911403ea41ab6d1cab99523_screen.jpg?ts=1708693252"
+                            alt="thumbnail">
+                    </div>
+                    <div class="thumbnailcontentthreeth">
+
+                        <Img class="channellogothreeth" width="30px"
+                            src="https://www.designevo.com/res/templates/thumb_small/drop-extra-terrestrial-and-gaming.webp">
+                        <p>
+                            Digital platforms: Widely used by sites like YouTube,
+                            other social media to represent ....
+                        </p>
+                    </div>
+                    <span>1.4k views 2 years ago </span>
+                </div>
+
+
+                <div class="contentrowfourth">
+
+                    <div id="thumbnailfourth">
+                        <img width="83%"
+                            src="https://fiverr-res.cloudinary.com/videos/t_main1,q_auto,f_auto/vpj6nqzj2xfeyuinbtjw/design-glowing-youtube-thumbnails-abd1.png"
+                            alt="thumbnail">
+                    </div>
+                    <div class="thumbnailcontentfourth">
+
+                        <Img class="channellogofourth" width="30px"
+                            src="https://www.designevo.com/res/templates/thumb_small/drop-extra-terrestrial-and-gaming.webp">
+                        <p>
+                            Digital platforms: Widely used by sites like YouTube,
+                            other social media to represent ....
+                        </p>
+                    </div>
+                    <span>1.4k views 2 years ago </span>
+                </div>
+
+                <div class="contentrowfifth">
+
+                    <div id="thumbnailfifth">
+                        <img width="83%"
+                            src="https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/32771170/original/3b77e1d5dc1a273e1138f97ec867467086a7cfc7/make-you-a-custom-youtube-thumbnail.jpg"
+                            alt="thumbnail">
+                    </div>
+                    <div class="thumbnailcontentfifth">
+                        <Img class="channellogofifth" width="30px"
+                            src="https://www.designevo.com/res/templates/thumb_small/drop-extra-terrestrial-and-gaming.webp">
+                        <p>
+                            Digital platforms: Widely used by sites like YouTube,
+                            other social media to represent ....
+                        </p>
+                    </div>
+                    <span>1.4k views 2 years ago </span>
+                </div>
+
+                <div class="contentrowsixth">
+
+                    <div id="thumbnailsixth">
+                        <img width="83%"
+                            src="https://i.ytimg.com/vi/cXSyy3HgY5g/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCu76jWV6PNQgyqgvTPRvLtSKE-Vg"
+                            alt="thumbnail">
+                    </div>
+                    <div class="thumbnailcontentsixth">
+                        <Img class="channellogosixth" width="30px"
+                            src="https://www.designevo.com/res/templates/thumb_small/drop-extra-terrestrial-and-gaming.webp">
+                        <p>
+                            Digital platforms: Widely used by sites like YouTube,
+                            Instagram, media to represent ....
+                        </p>
+                    </div>
+                    <span>1.4k views 2 years ago </span>
+                </div>
+
+            </div>
+
+            <div class="shortheader">
+                <img src="https://img.icons8.com/?size=100&id=ot8QhAKun4rZ&format=png&color=000000" alt="short"
+                    width="16px" height="16px">
+                <p> Shorts </p>
+            </div>
+
+            <div id="shortcontentfrist">
+
+                <div id="shortcontent">
+
+                    <div class="shortfrist">
+                        <img src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLUkJOylU1btLom8EcxcWAhfhMnqDBQi1o1A&s"
+                            alt="thumbnail">
+                    </div>
+
+                    <p>
+                        Dd by sites like YouTube,
+                        <br>Instagram, represent ....
+                    </p>
+
+                    <span>1.4k views </span>
+                </div>
+
+
+
+                <div id="shortcontent">
+
+                    <div class="shortfrist">
+                        <img src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHNoO40PyFPG73YL1oEfiYydXD5bOzzKyT3g&s"
+                            alt="thumbnail">
+                    </div>
+
+                    <p>
+                        Dd by sites like YouTube,
+                        <br>Instagram, represent ....
+                    </p>
+
+                    <span>1.4k views </span>
+                </div>
+
+
+                <div id="shortcontent">
+
+                    <div class="shortfrist">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTN9os2AhS35PYqo-lf2x5o3R9RCUFcIjTlKA&s"
+                            alt="thumbnail">
+                    </div>
+
+                    <p>
+                        Dd by sites like YouTube,
+                        <br>Instagram, represent ....
+                    </p>
+
+                    <span>1.4k views </span>
+                </div>
+
+
+                <div id="shortcontent">
+
+                    <div class="shortfrist">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRlPgGxYWXuC8LCAfxzt-d5YWDwgFkSasLQQ&s"
+                            alt="thumbnail">
+                    </div>
+
+                    <p>
+                        Dd by sites like YouTube,
+                        <br>Instagram, represent ....
+                    </p>
+
+                    <span>1.4k views </span>
+                </div>
+
+
+                <div id="shortcontent">
+
+                    <div class="shortfrist">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSh6Rnxc2Acs1iHwhBSPceJ5PDdI4g17Jh5Lg&s"
+                            alt="thumbnail">
+                    </div>
+
+                    <p>
+                        Dd by sites like YouTube,
+                        <br>Instagram, represent ....
+                    </p>
+
+                    <span>1.4k views </span>
+                </div>
+
+
+                <div id="shortcontent">
+
+                    <div class="shortfrist">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkhayJKB8m4t5WlxV4HdKN-Ue0OkkWqzQeENoKUWCmA2dG1gj0as7_NpOxVPDqyxrWJsI&usqp=CAU"
+                            alt="thumbnail">
+                    </div>
+
+                    <p>
+                        Dd by sites like YouTube,
+                        <br>Instagram, represent ....
+                    </p>
+
+                    <span>1.4k views </span>
+                </div>
+
+
+                <div id="shortcontent">
+
+                    <div class="shortfrist">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKCntcEG3NbLHnq6OjXjTUChPLpPKSlRCyAw&s"
+                            alt="thumbnail">
+                    </div>
+
+                    <p>
+                        Dd by sites like YouTube,
+                        <br>Instagram, represent ....
+                    </p>
+
+                    <span>1.4k views </span>
+                </div>
+
+
+                <div id="shortcontent">
+
+                    <div class="shortfrist">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRW_TG9iD-3nIbOvF9GanDdLFSuSYk95XssT-eXW1e7cF-VNCkKoM5rstfgdEIGL2AAvII&usqp=CAU"
+                            alt="thumbnail">
+                    </div>
+
+                    <p>
+                        Dd by sites like YouTube,
+                        <br>Instagram, represent ....
+                    </p>
+
+                    <span>1.4k views </span>
+                </div>
+            </div>
+
+            <div id="thumbnailrowfrist">
+
+                <div class="contentrowfrist">
+
+                    <div id="thumbnailfrist">
+                        <img width="83%"
+                            src="https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/312652162/original/4ace56fa5780d397bda5b457cf350edcdc518fd0/design-amazing-viral-clickbait-youtube-thumbnail.jpg"
+                            alt="thumbnail">
+                    </div>
+                    <div class="thumbnailcontentfrist">
+                        <Img class="channellogofrist" width="30px"
+                            src="https://www.designevo.com/res/templates/thumb_small/drop-extra-terrestrial-and-gaming.webp">
+                        <p>
+                            Digital platforms: Widely used by sites like YouTube,
+                            other social media to represent ....
+                        </p>
+                    </div>
+                    <span>1.4k views 2 years ago </span>
+                </div>
+
+
+                <div class="contentrowsecond">
+
+                    <div id="thumbnailsecond">
+                        <img width="83%"
+                            src="https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto/gigs/418219252/original/141449f271596aca2a81483363b26b157a506e7d/design-professional-finance-youtube-thumbnails.png"
+                            alt="thumbnail">
+                    </div>
+                    <div class="thumbnailcontentsecond">
+                        <Img class="channellogosecond" width="30px"
+                            src="https://www.designevo.com/res/templates/thumb_small/drop-extra-terrestrial-and-gaming.webp">
+                        <p>
+                            Digital platforms: Widely used by sites like YouTube,
+                            other social media to represent ....
+                        </p>
+                    </div>
+                    <span>1.4k views 2 years ago </span>
+                </div>
+
+
+                <div class="contentrowthreeth">
+
+                    <div id="thumbnailthreeth">
+                        <img width="83%"
+                            src="https://i.ytimg.com/vi/1BNEEigyZr4/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCXneDK3Fh8C8uWVfVxqBFukJSeIg"
+                            alt="thumbnail">
+                    </div>
+                    <div class="thumbnailcontentthreeth">
+
+                        <Img class="channellogothreeth" width="30px"
+                            src="https://i.ytimg.com/vi/YhFTYjEoVmw/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLB8vRXwB0UsS5rflKjQHuGu21hFQg">
+                        <p>
+                            Digital platforms: Widely used by sites like YouTube,
+                            other social media to represent ....
+                        </p>
+                    </div>
+                    <span>1.4k views 2 years ago </span>
+                </div>
+
+
+                <div class="contentrowfourth">
+
+                    <div id="thumbnailfourth">
+                        <img width="83%"
+                            src="https://i.ytimg.com/vi/eL6B5I9m5Xk/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAZRhhXBHZ3pbvKyxlLmoIiGhJWTA"
+                            alt="thumbnail">
+                    </div>
+                    <div class="thumbnailcontentfourth">
+
+                        <Img class="channellogofourth" width="30px"
+                            src="https://www.designevo.com/res/templates/thumb_small/drop-extra-terrestrial-and-gaming.webp">
+                        <p>
+                            Digital platforms: Widely used by sites like YouTube,
+                            other social media to represent ....
+                        </p>
+                    </div>
+                    <span>1.4k views 2 years ago </span>
+                </div>
+
+                <div class="contentrowfifth">
+
+                    <div id="thumbnailfifth">
+                        <img width="83%"
+                            src="https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto/gigs/135683079/original/881806ec6446b1aeaf81f1dab20b292ece91d0db/do-the-catchy-youtube-thumbnails-in-1-hour.jpg"
+                            alt="thumbnail">
+                    </div>
+                    <div class="thumbnailcontentfifth">
+                        <Img class="channellogofifth" width="30px"
+                            src="https://www.designevo.com/res/templates/thumb_small/drop-extra-terrestrial-and-gaming.webp">
+                        <p>
+                            Digital platforms: Widely used by sites like YouTube,
+                            other social media to represent ....
+                        </p>
+                    </div>
+                    <span>1.4k views 2 years ago </span>
+                </div>
+
+                <div class="contentrowsixth">
+
+                    <div id="thumbnailsixth">
+                        <img width="83%"
+                            src="https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/274424749/original/ca62f88d4cf2f68191ab72f37670c3f550ca851e/design-attractive-youtube-thumbnails-within-2-hours.jpg"
+                            alt="thumbnail">
+                    </div>
+                    <div class="thumbnailcontentsixth">
+                        <Img class="channellogosixth" width="30px"
+                            src="https://www.designevo.com/res/templates/thumb_small/drop-extra-terrestrial-and-gaming.webp">
+                        <p>
+                            Digital platforms: Widely used by sites like YouTube,
+                            Instagram, media to represent ....
+                        </p>
+                    </div>
+                    <span>1.4k views 2 years ago </span>
+                </div>
+
+            </div>
+
+
+
+            <div id="thumbnailrowfrist">
+
+                <div class="contentrowfrist">
+
+                    <div id="thumbnailfrist">
+                        <img width="83%"
+                            src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/youtube-thumbnail-template-design-5fa9cd79a6367f8446a5208e4540a493_screen.jpg?ts=1699135222"
+                            alt="thumbnail">
+                    </div>
+                    <div class="thumbnailcontentfrist">
+                        <Img class="channellogofrist" width="30px"
+                            src="https://www.designevo.com/res/templates/thumb_small/drop-extra-terrestrial-and-gaming.webp">
+                        <p>
+                            Digital platforms: Widely used by sites like YouTube,
+                            other social media to represent ....
+                        </p>
+                    </div>
+                    <span>1.4k views 2 years ago </span>
+                </div>
+
+
+                <div class="contentrowsecond">
+
+                    <div id="thumbnailsecond">
+                        <img width="83%"
+                            src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/free-youtube-thumbnail-maker-online-design-template-b0d0e1050e510fc2784b90d522d5bbe5_screen.jpg?ts=1662402001"
+                            alt="thumbnail">
+                    </div>
+                    <div class="thumbnailcontentsecond">
+                        <Img class="channellogosecond" width="30px"
+                            src="https://www.designevo.com/res/templates/thumb_small/drop-extra-terrestrial-and-gaming.webp">
+                        <p>
+                            Digital platforms: Widely used by sites like YouTube,
+                            other social media to represent ....
+                        </p>
+                    </div>
+                    <span>1.4k views 2 years ago </span>
+                </div>
+
+
+                <div class="contentrowthreeth">
+
+                    <div id="thumbnailthreeth">
+                        <img width="83%"
+                            src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/youtube-thumbnail-template-design-5fa9cd79a6367f8446a5208e4540a493_screen.jpg?ts=1699135222"
+                            alt="thumbnail">
+                    </div>
+                    <div class="thumbnailcontentthreeth">
+
+                        <Img class="channellogothreeth" width="30px"
+                            src="https://www.designevo.com/res/templates/thumb_small/drop-extra-terrestrial-and-gaming.webp">
+                        <p>
+                            Digital platforms: Widely used by sites like YouTube,
+                            other social media to represent ....
+                        </p>
+                    </div>
+                    <span>1.4k views 2 years ago </span>
+                </div>
+
+
+                <div class="contentrowfourth">
+
+                    <div id="thumbnailfourth">
+                        <img width="83%"
+                            src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/free-youtube-thumbnail-maker-online-design-template-b0d0e1050e510fc2784b90d522d5bbe5_screen.jpg?ts=1662402001"
+                            alt="thumbnail">
+                    </div>
+                    <div class="thumbnailcontentfourth">
+
+                        <Img class="channellogofourth" width="30px"
+                            src="https://www.designevo.com/res/templates/thumb_small/drop-extra-terrestrial-and-gaming.webp">
+                        <p>
+                            Digital platforms: Widely used by sites like YouTube,
+                            other social media to represent ....
+                        </p>
+                    </div>
+                    <span>1.4k views 2 years ago </span>
+                </div>
+
+                <div class="contentrowfifth">
+
+                    <div id="thumbnailfifth">
+                        <img width="83%"
+                            src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/youtube-thumbnail-template-design-5fa9cd79a6367f8446a5208e4540a493_screen.jpg?ts=1699135222"
+                            alt="thumbnail">
+                    </div>
+                    <div class="thumbnailcontentfifth">
+                        <Img class="channellogofifth" width="30px"
+                            src="https://www.designevo.com/res/templates/thumb_small/drop-extra-terrestrial-and-gaming.webp">
+                        <p>
+                            Digital platforms: Widely used by sites like YouTube,
+                            other social media to represent ....
+                        </p>
+                    </div>
+                    <span>1.4k views 2 years ago </span>
+                </div>
+
+                <div class="contentrowsixth">
+
+                    <div id="thumbnailsixth">
+                        <img width="83%"
+                            src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/free-youtube-thumbnail-maker-online-design-template-b0d0e1050e510fc2784b90d522d5bbe5_screen.jpg?ts=1662402001"
+                            alt="thumbnail">
+                    </div>
+                    <div class="thumbnailcontentsixth">
+                        <Img class="channellogosixth" width="30px"
+                            src="https://www.designevo.com/res/templates/thumb_small/drop-extra-terrestrial-and-gaming.webp">
+                        <p>
+                            Digital platforms: Widely used by sites like YouTube,
+                            Instagram, media to represent ....
+                        </p>
+                    </div>
+                    <span>1.4k views 2 years ago </span>
+                </div>
+
+            </div>
+
+
+            <div id="thumbnailrowfrist">
+
+                <div class="contentrowfrist">
+
+                    <div id="thumbnailfrist">
+                        <img width="83%"
+                            src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/youtube-thumbnail-template-design-5fa9cd79a6367f8446a5208e4540a493_screen.jpg?ts=1699135222"
+                            alt="thumbnail">
+                    </div>
+                    <div class="thumbnailcontentfrist">
+                        <Img class="channellogofrist" width="30px"
+                            src="https://www.designevo.com/res/templates/thumb_small/drop-extra-terrestrial-and-gaming.webp">
+                        <p>
+                            Digital platforms: Widely used by sites like YouTube,
+                            other social media to represent ....
+                        </p>
+                    </div>
+                    <span>1.4k views 2 years ago </span>
+                </div>
+
+
+                <div class="contentrowsecond">
+
+                    <div id="thumbnailsecond">
+                        <img width="83%"
+                            src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/free-youtube-thumbnail-maker-online-design-template-b0d0e1050e510fc2784b90d522d5bbe5_screen.jpg?ts=1662402001"
+                            alt="thumbnail">
+                    </div>
+                    <div class="thumbnailcontentsecond">
+                        <Img class="channellogosecond" width="30px"
+                            src="https://www.designevo.com/res/templates/thumb_small/drop-extra-terrestrial-and-gaming.webp">
+                        <p>
+                            Digital platforms: Widely used by sites like YouTube,
+                            other social media to represent ....
+                        </p>
+                    </div>
+                    <span>1.4k views 2 years ago </span>
+                </div>
+
+
+                <div class="contentrowthreeth">
+
+                    <div id="thumbnailthreeth">
+                        <img width="83%"
+                            src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/youtube-thumbnail-template-design-5fa9cd79a6367f8446a5208e4540a493_screen.jpg?ts=1699135222"
+                            alt="thumbnail">
+                    </div>
+                    <div class="thumbnailcontentthreeth">
+
+                        <Img class="channellogothreeth" width="30px"
+                            src="https://www.designevo.com/res/templates/thumb_small/drop-extra-terrestrial-and-gaming.webp">
+                        <p>
+                            Digital platforms: Widely used by sites like YouTube,
+                            other social media to represent ....
+                        </p>
+                    </div>
+                    <span>1.4k views 2 years ago </span>
+                </div>
+
+
+                <div class="contentrowfourth">
+
+                    <div id="thumbnailfourth">
+                        <img width="83%"
+                            src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/free-youtube-thumbnail-maker-online-design-template-b0d0e1050e510fc2784b90d522d5bbe5_screen.jpg?ts=1662402001"
+                            alt="thumbnail">
+                    </div>
+                    <div class="thumbnailcontentfourth">
+
+                        <Img class="channellogofourth" width="30px"
+                            src="https://www.designevo.com/res/templates/thumb_small/drop-extra-terrestrial-and-gaming.webp">
+                        <p>
+                            Digital platforms: Widely used by sites like YouTube,
+                            other social media to represent ....
+                        </p>
+                    </div>
+                    <span>1.4k views 2 years ago </span>
+                </div>
+
+                <div class="contentrowfifth">
+
+                    <div id="thumbnailfifth">
+                        <img width="83%"
+                            src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/youtube-thumbnail-template-design-5fa9cd79a6367f8446a5208e4540a493_screen.jpg?ts=1699135222"
+                            alt="thumbnail">
+                    </div>
+                    <div class="thumbnailcontentfifth">
+                        <Img class="channellogofifth" width="30px"
+                            src="https://www.designevo.com/res/templates/thumb_small/drop-extra-terrestrial-and-gaming.webp">
+                        <p>
+                            Digital platforms: Widely used by sites like YouTube,
+                            other social media to represent ....
+                        </p>
+                    </div>
+                    <span>1.4k views 2 years ago </span>
+                </div>
+
+                <div class="contentrowsixth">
+
+                    <div id="thumbnailsixth">
+                        <img width="83%"
+                            src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/free-youtube-thumbnail-maker-online-design-template-b0d0e1050e510fc2784b90d522d5bbe5_screen.jpg?ts=1662402001"
+                            alt="thumbnail">
+                    </div>
+                    <div class="thumbnailcontentsixth">
+                        <Img class="channellogosixth" width="30px"
+                            src="https://www.designevo.com/res/templates/thumb_small/drop-extra-terrestrial-and-gaming.webp">
+                        <p>
+                            Digital platforms: Widely used by sites like YouTube,
+                            Instagram, media to represent ....
+                        </p>
+                    </div>
+                    <span>1.4k views 2 years ago </span>
+                </div>
+
+            </div>
+
+
+        </article>
+
+    </main>
+
+
+</body>
+
+</html>
