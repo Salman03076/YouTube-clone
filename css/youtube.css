@@ -798,9 +798,6 @@ body {
     justify-content: space-around;
 }
 
-
-
-
 #thumbnailrowsecond {
     display: flex;
     flex-direction: row;
@@ -820,7 +817,6 @@ body {
     padding-top: 1px;
     border: 1px solid black;
     border-radius: 25px;
-
 }
 
 #thumbnailrowsecond p {
