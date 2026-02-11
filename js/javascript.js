@@ -40,4 +40,11 @@ function transition() {
 setInterval(transition, 1000);
 transition();
 
-
+/*
+echo "# Menual-clock-clone" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Salman03076/Menual-clock-clone.git
+git push -u origin main*/
